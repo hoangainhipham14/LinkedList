@@ -1,4 +1,4 @@
-##Task: Create a LinkedList
+# Task: Create a LinkedList
 
 addFirst(e) -> adds element e to the front of the linked list, l
 
