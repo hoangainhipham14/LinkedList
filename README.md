@@ -1,5 +1,5 @@
-Task: Create a LinkedList
-You are only allowed to use the standard library and must implement the following functions :
+#Task: Create a LinkedList
+
 addFirst(e) -> adds element e to the front of the linked list, l
 
 
