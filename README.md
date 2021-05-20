@@ -1,14 +1,23 @@
-## Getting Started
+Task: Create a LinkedList
+You are only allowed to use the standard library and must implement the following functions :
+addFirst(e) -> adds element e to the front of the linked list, l
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+addLast(e) -> adds element e to the end of the linked list, l
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+removeLast() -> remove element e from the end of the linkedlist, l
 
-## Dependency Management
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+removeFirst() -> remove element e from the front of the linkedlist, l
+
+
+getFirst() -> return the first element in the linkedlist l, or NULL if the list is empty
+
+
+getLast() -> return the last element in the linkedlist l, or NULL if the list is empty
+
+
+showList() -> print a string representation of the linkedlist l to the stdout. For example a list containing the elements [1,5,6,8] should look like:
+
+ 1->5->6->8
